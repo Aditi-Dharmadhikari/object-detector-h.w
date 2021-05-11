@@ -26,7 +26,7 @@ function setup(){
 
 function model_load(){
     console.log("COCOSSD LOADED");
-   // status = true;
+    status = true;
     
 }
 
@@ -39,20 +39,16 @@ function gotCocossd(error, results){
 
     else{
     console.log(results);
-    //array = results;
+    array = results;
     }
 }
 
 function draw(){
-   
 
-    
-}
-
-/*if(status != " "){
+if(status != " "){
     for(i = 0; i < array.length ; i++){
 
-        r = random(255);
+       r = random(255);
         g = random(255);
         b = random(255);
 
@@ -69,4 +65,5 @@ function draw(){
      
 
     }
-}*/
+}
+}
